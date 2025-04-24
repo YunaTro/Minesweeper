@@ -43,7 +43,7 @@ class Field(private var size: Int, private var count:Int, var context: Context) 
             val row = Random.nextInt(size)
             val col = Random.nextInt(size)
 
-            if (field[row][col].value == 0 && !(row == 0 && col == 0)) {
+            if (field[row][col].value == 0 && !(row == 0 && col == 0) && !(row == 0 && col == 1) && !(row == 1 && col == 0)) {
                 field[row][col].value = -1
                 placedMines++
                 for (i in -1..1) {
