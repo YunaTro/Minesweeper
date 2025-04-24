@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyGame2</string>
+    <string name="donate">Donate</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="restart">Restart</string>
+    <string name="cardinfo">Troitskaya Yuna T-Bank\n8 (915) 487-41-54</string>
+</resources>
